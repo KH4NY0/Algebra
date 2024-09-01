@@ -1,11 +1,14 @@
 # Remember to run "pip install sympy" on your CLI before running this program
-import sympy
-from sympy import symbols
-from sympy.solvers import solve
+from sympy import * 
+
 
 x = symbols('x')
 
-eq = input('Enter equation: 0 =  ')
+# we are always assuming that y = 0 , but i'll figure out later on how to declare the value of 'y' in the equation
+eq = input('Enter equation: y =  ')
+
+solution = solve(eq,x)
+print(solution)
 
 solution = solve(eq,x)
 for s in solution:
