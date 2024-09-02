@@ -13,3 +13,4 @@ numerator = int(num * 10 ** exponent)
 denominator = 10 ** exponent
 
 print(f'The fraction is {numerator} / {denominator}')
+
