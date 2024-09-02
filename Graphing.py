@@ -1,5 +1,4 @@
 # Run 'pip install matplotlib' on your CLI before running this program
-#print('x \t y')
 
 # Basic blank graph
 import matplotlib.pyplot as plt
